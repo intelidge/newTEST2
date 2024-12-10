@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            display: block;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f5f5f5;
+           
+        }
+        
+        .container {
+            margin-left: 360px;
+            margin-top: 50px;
+            display: flex;
+            gap: 40px;
+            width: 2000px;
+        }
+        /*//////////////////////////////////////*/
+        .card1 {
+            background-color: #e7e7e7;
+            border-radius: 0px;
+            width: 350px;
+            padding-top: 15px;
+            padding-right: 40px;
+            padding-bottom: 30px;
+            padding-left: 5px;
+            line-height: 25px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+       
+
+        .card1 .quote1 {
+            font-size: 17px;
+            color: #444343;
+            font-weight: 300;
+            margin-bottom: 20px;
+            position: relative;
+            padding-left: 30px;
+        }
+
+   /*//////////////////////////////////////*/
+      /* .quote::before {
+            content: "“";
+            font-size: 5em;
+            color: #ccc;
+            position: absolute;
+            left: 10px;
+            margin-bottom: -50px;
+        }
+            */
+            
+     
+            
+
+        .quote1::before {
+            content: "“";
+            font-size: 5em;
+            color: #ccc;
+            position: absolute;
+            left: 10px;
+            top: -10px;
+        }
+        .quote1::after {
+            content: "";
+            position: absolute;
+            bottom: -10px;
+            left: 10%;
+            transform: translateX(-50%);
+            width: 0;
+            height: 0;
+            
+        }
+            
+            
+
+
+      /*//////////////////////////////////////*/
+
+
+
+        .card {
+            background-color: #e7e7e7;
+            border-radius: 0px;
+            width: 320px;
+            padding-top: 15px;
+            padding-right: 40px;
+            padding-bottom: 30px;
+            padding-left: 5px;
+            line-height: 25px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            position: relative;
+        }
+
+       
+
+        .card .quote {
+            color: #444343;
+            font-size: 17px;
+            font-weight: 300;
+            margin-bottom: 20px;
+            position: relative;
+            padding-left: 30px;
+        }
+
+        .card .quote::before {
+            content: '‟';
+            position: absolute;
+            left: 10px;
+            top: 8px;
+            font-size: 100px;
+            color: #cdcccc;
+        }
+    /**  .card  .quote::after {
+content: "";
+position: absolute;
+bottom: -10px;
+left: 10%;
+transform: translateX(-50%);
+width: 0;
+height: 0;
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+border-top: 10px solid #b43030;
+        }
+
+
+        .card3  .quote3::after {
+content: "";
+position: absolute;
+bottom: -10px;
+left: 10%;
+transform: translateX(-50%);
+width: 0;
+height: 0;
+border-left: 10px solid transparent;
+border-right: 10px solid transparent;
+border-top: 10px solid #8c2323;
+        }
+*/
+       
+
+              /*//////////////////////////////////////*/
+        .card3 {
+            background-color: #e7e7e7;
+            width: 300px;
+            padding-top: 15px;
+            padding-right: 40px;
+            padding-bottom: 30px;
+            padding-left: 5px;
+            line-height: 25px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            position: relative;
+        }
+        .card3 .quote3 {
+            color: #444343;
+            font-size: 17px;
+            font-weight: 300;
+            margin-bottom: 20px;
+            position: relative;
+            padding-left: 30px;
+        }
+
+        .card3 .quote3::before {
+            content: '‟';
+            position: absolute;
+            left: 10px;
+            top: 8px;
+            font-size: 100px;
+            color: #cdcccc;
+        }
+      /*//////////////////////////////////////*/
+
+
+.worcant{
+            margin-left: 10px;
+          margin-top: 0px;
+            display: flex;
+            gap: 150px;
+            width: 800px;
+        }
+
+        /*/////***/
+
+
+
+        .worker1{
+            width: 800px;
+            margin-left: 380px;
+           margin-top: 10px;
+            position: relative;
+        }
+        .worker1 .author1 {
+            display: flex;
+            align-items: center;
+           
+            gap: 20px;
+        }
+
+        .worker1 .author1 .image1 {
+            width: 90px;
+            height: 90px;
+          margin-bottom: -60px;
+            margin-right: -10px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .worker1 .author1 .image1 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .worker1 .author1 .text1 {
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+        }
+
+        .worker1 .author1 .text1 .name1 {
+            font-weight: 500;
+            font-size: 25px;
+            width: 200px;
+            /*flex-direction: row;*/
+        }
+
+        .worker1 .author1 .text1 .role1 {
+            font-size: 14px;
+            display: flex;
+            margin-top: -25px;
+            flex-direction: column;
+            color: #da690d;
+        }
+
+/*///////////////////////////////////////////////////////*/
+.worker2{
+            width: 800px;
+            margin-left: -20px;
+           margin-top: 10px;
+            position: relative;
+        }
+        .worker2 .author2 {
+            display: flex;
+            align-items: center;
+           
+            gap: 20px;
+        }
+
+        .worker2 .author2 .image2 {
+            width: 90px;
+            height: 90px;
+          margin-bottom: -60px;
+            margin-right: -10px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .worker2 .author2 .image2 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .worker2 .author2 .text2 {
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+        }
+
+        .worker2 .author2 .text2 .name2 {
+            font-weight: 500;
+            font-size: 25px;
+            width: 200px;
+            /*flex-direction: row;*/
+        }
+
+        .worker2 .author2 .text2 .role2 {
+            font-size: 14px;
+            display: flex;
+            margin-top: -25px;
+            flex-direction: column;
+            color: #da690d;
+        }
+
+
+
+
+
+/*////////////////*/
+.worker3{
+            width: 800px;
+            margin-left: -30px;
+           margin-top: 10px;
+            position: relative;
+        }
+        .worker3 .author3 {
+            display: flex;
+            align-items: center;
+           
+            gap: 20px;
+        }
+
+        .worker3 .author3 .image3 {
+            width: 90px;
+            height: 90px;
+          margin-bottom: -60px;
+            margin-right: -10px;
+            border-radius: 50%;
+            overflow: hidden;
+        }
+
+        .worker3 .author3 .image3 img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+
+        .worker3 .author3 .text3 {
+            display: flex;
+            flex-direction: column;
+            gap: 0px;
+        }
+
+        .worker3 .author3 .text3 .name3 {
+            font-weight: 500;
+            font-size: 25px;
+            width: 200px;
+            /*flex-direction: row;*/
+        }
+
+        .worker3 .author3 .text3 .role3 {
+            font-size: 14px;
+            display: flex;
+            margin-top: -25px;
+            flex-direction: column;
+            color: #da690d;
+        }
+
+
+/*/////////////////////////////*/
+
+
+h1 {
+     
+            font-size: 40px;
+          margin-left: 100px;
+            font-weight: 600;
+           color: rgb(62, 68, 78);
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>What People Says</h1>
+    <div class="container">
+      
+        <div class="card1">
+            <div class="aboba">
+
+            </div>
+            <p class="quote1">Pretty great book about information architecture. If you build websites, I'd recommend reading it.</p>
+           
+        </div>
+       
+
+        <div class="card">
+            <div class="aboba">
+
+            </div>
+            <p class="quote">Read this book for an information design class. It's great resource for anyone wanting to learn about IA or get unto a usability field.</p>
+           
+               
+        </div>
+           
+        
+
+        <div class="card3">
+            <div class="aboba">
+
+            </div>
+            <p class="quote3">A well-balanced and well thought-through introduction to the field of information management and usability.</p> 
+        </div>
+     
+        
+    </div>
+
+
+
+
+<div class="worcant">
+    <div class="worker1">
+        <div class="author1">
+            <div class="image1">
+                <img src="user-alex-ross-80x80.jpg" alt="Author">
+            </div>
+            <div class="text1">
+                <p class="name1">Alex Ross</p>
+                <p class="role1">INFORMATION ARCHITECT</p>
+            </div>
+        </div>
+    </div>
+    <div class="worker2">
+        <div class="author2">
+            <div class="image2">
+                <img src="user-alisa-milano-80x80.jpg" alt="Author">
+            </div>
+            <div class="text2">
+                <p class="name2">Alisa Milano</p>
+                <p class="role2">DEVELOPER</p>
+            </div>
+        </div>
+    </div>
+    <div class="worker3">
+        <div class="author3">
+            <div class="image3">
+                <img src="user-john-more-80x80.jpg" alt="Author">
+            </div>
+            <div class="text3">
+                <p class="name3">John More</p>
+                <p class="role3">DESIGNER</p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+   
+
+
+</body>
+</html>
